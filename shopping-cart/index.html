@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Shopping Cart</title>
+  <link rel="stylesheet" href="assests/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Shopping Cart</h1>
+    <div class="item-form">
+      <input type="text" id="itemName" placeholder="Item Name">
+      <input type="number" id="itemPrice" placeholder="Item Price">
+      <button onclick="addItem()">Add to Cart</button>
+    </div>
+    <div class="cart">
+      <h2>Cart Total: $<span id="cartTotal">0.00</span></h2>
+    </div>
+  </div>
+
+  <script src="assests/script.js"></script>
+</body>
+</html>
